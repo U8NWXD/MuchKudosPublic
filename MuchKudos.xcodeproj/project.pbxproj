@@ -1,0 +1,832 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15B3D82705D52E228CE35D95 /* Pods_MuchKudos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC94A7E1D155FB348BB896FE /* Pods_MuchKudos.framework */; };
+		320B524F95DF97552F68FA7A /* Pods_MuchKudosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5C773EBAF1D8342FFB9A31D /* Pods_MuchKudosTests.framework */; };
+		404B16D120399F1A003B0CFC /* Kudos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404B16D020399F1A003B0CFC /* Kudos.swift */; };
+		404B16D32039C83D003B0CFC /* ExpandableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404B16D22039C83D003B0CFC /* ExpandableCell.swift */; };
+		40D30FB62039476000BC9FB4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D30FB52039476000BC9FB4 /* LoginViewController.swift */; };
+		40D30FB82039887E00BC9FB4 /* AllKudosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D30FB72039887E00BC9FB4 /* AllKudosViewController.swift */; };
+		40E46D122038AEBD0013B15C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E46D112038AEBD0013B15C /* AppDelegate.swift */; };
+		40E46D142038AEBD0013B15C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E46D132038AEBD0013B15C /* ViewController.swift */; };
+		40E46D172038AEBD0013B15C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40E46D152038AEBD0013B15C /* Main.storyboard */; };
+		40E46D192038AEBD0013B15C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40E46D182038AEBD0013B15C /* Assets.xcassets */; };
+		40E46D1C2038AEBD0013B15C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40E46D1A2038AEBD0013B15C /* LaunchScreen.storyboard */; };
+		40E46D272038AEBE0013B15C /* MuchKudosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E46D262038AEBE0013B15C /* MuchKudosTests.swift */; };
+		40E46D322038AEBE0013B15C /* MuchKudosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E46D312038AEBE0013B15C /* MuchKudosUITests.swift */; };
+		40E46D402038BFA70013B15C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 40E46D3F2038BFA70013B15C /* GoogleService-Info.plist */; };
+		B24B6CC3C7FC71C6B9AE933F /* Pods_MuchKudosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 480CD2E4AEEB2327AFFC37BC /* Pods_MuchKudosUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		40E46D232038AEBE0013B15C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40E46D062038AEBD0013B15C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40E46D0D2038AEBD0013B15C;
+			remoteInfo = MuchKudos;
+		};
+		40E46D2E2038AEBE0013B15C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40E46D062038AEBD0013B15C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40E46D0D2038AEBD0013B15C;
+			remoteInfo = MuchKudos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B93BCCD31BA47F5F2AE0258 /* Pods-MuchKudosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuchKudosTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MuchKudosTests/Pods-MuchKudosTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3B5D359A6263DA984791A72C /* Pods-MuchKudos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuchKudos.release.xcconfig"; path = "Pods/Target Support Files/Pods-MuchKudos/Pods-MuchKudos.release.xcconfig"; sourceTree = "<group>"; };
+		404B16D020399F1A003B0CFC /* Kudos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kudos.swift; sourceTree = "<group>"; };
+		404B16D22039C83D003B0CFC /* ExpandableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableCell.swift; sourceTree = "<group>"; };
+		40D30FB52039476000BC9FB4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		40D30FB72039887E00BC9FB4 /* AllKudosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllKudosViewController.swift; sourceTree = "<group>"; };
+		40E46D0E2038AEBD0013B15C /* MuchKudos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MuchKudos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40E46D112038AEBD0013B15C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		40E46D132038AEBD0013B15C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		40E46D162038AEBD0013B15C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		40E46D182038AEBD0013B15C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40E46D1B2038AEBD0013B15C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		40E46D1D2038AEBD0013B15C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40E46D222038AEBE0013B15C /* MuchKudosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MuchKudosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40E46D262038AEBE0013B15C /* MuchKudosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuchKudosTests.swift; sourceTree = "<group>"; };
+		40E46D282038AEBE0013B15C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40E46D2D2038AEBE0013B15C /* MuchKudosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MuchKudosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40E46D312038AEBE0013B15C /* MuchKudosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuchKudosUITests.swift; sourceTree = "<group>"; };
+		40E46D332038AEBE0013B15C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40E46D3F2038BFA70013B15C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		480CD2E4AEEB2327AFFC37BC /* Pods_MuchKudosUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MuchKudosUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		647A3DA02E2194333EE9B3B4 /* Pods-MuchKudosUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuchKudosUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MuchKudosUITests/Pods-MuchKudosUITests.release.xcconfig"; sourceTree = "<group>"; };
+		72C015A42DCA3989F8105826 /* Pods-MuchKudos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuchKudos.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MuchKudos/Pods-MuchKudos.debug.xcconfig"; sourceTree = "<group>"; };
+		7F8B7E043D90330292ABB915 /* Pods-MuchKudosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuchKudosTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MuchKudosTests/Pods-MuchKudosTests.release.xcconfig"; sourceTree = "<group>"; };
+		BC94A7E1D155FB348BB896FE /* Pods_MuchKudos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MuchKudos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5C773EBAF1D8342FFB9A31D /* Pods_MuchKudosTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MuchKudosTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F372C494C44D36159BF4E435 /* Pods-MuchKudosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuchKudosUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MuchKudosUITests/Pods-MuchKudosUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40E46D0B2038AEBD0013B15C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15B3D82705D52E228CE35D95 /* Pods_MuchKudos.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40E46D1F2038AEBE0013B15C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				320B524F95DF97552F68FA7A /* Pods_MuchKudosTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40E46D2A2038AEBE0013B15C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B24B6CC3C7FC71C6B9AE933F /* Pods_MuchKudosUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40E46D052038AEBD0013B15C = {
+			isa = PBXGroup;
+			children = (
+				40E46D102038AEBD0013B15C /* MuchKudos */,
+				40E46D252038AEBE0013B15C /* MuchKudosTests */,
+				40E46D302038AEBE0013B15C /* MuchKudosUITests */,
+				40E46D0F2038AEBD0013B15C /* Products */,
+				F26199571FAE873FC10FC6EC /* Pods */,
+				BDB21E61FA63BD3E6CA0F1D4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		40E46D0F2038AEBD0013B15C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40E46D0E2038AEBD0013B15C /* MuchKudos.app */,
+				40E46D222038AEBE0013B15C /* MuchKudosTests.xctest */,
+				40E46D2D2038AEBE0013B15C /* MuchKudosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40E46D102038AEBD0013B15C /* MuchKudos */ = {
+			isa = PBXGroup;
+			children = (
+				40E46D3F2038BFA70013B15C /* GoogleService-Info.plist */,
+				40E46D112038AEBD0013B15C /* AppDelegate.swift */,
+				40E46D132038AEBD0013B15C /* ViewController.swift */,
+				40E46D152038AEBD0013B15C /* Main.storyboard */,
+				40D30FB52039476000BC9FB4 /* LoginViewController.swift */,
+				40E46D182038AEBD0013B15C /* Assets.xcassets */,
+				40E46D1A2038AEBD0013B15C /* LaunchScreen.storyboard */,
+				40E46D1D2038AEBD0013B15C /* Info.plist */,
+				40D30FB72039887E00BC9FB4 /* AllKudosViewController.swift */,
+				404B16D020399F1A003B0CFC /* Kudos.swift */,
+				404B16D22039C83D003B0CFC /* ExpandableCell.swift */,
+			);
+			path = MuchKudos;
+			sourceTree = "<group>";
+		};
+		40E46D252038AEBE0013B15C /* MuchKudosTests */ = {
+			isa = PBXGroup;
+			children = (
+				40E46D262038AEBE0013B15C /* MuchKudosTests.swift */,
+				40E46D282038AEBE0013B15C /* Info.plist */,
+			);
+			path = MuchKudosTests;
+			sourceTree = "<group>";
+		};
+		40E46D302038AEBE0013B15C /* MuchKudosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				40E46D312038AEBE0013B15C /* MuchKudosUITests.swift */,
+				40E46D332038AEBE0013B15C /* Info.plist */,
+			);
+			path = MuchKudosUITests;
+			sourceTree = "<group>";
+		};
+		BDB21E61FA63BD3E6CA0F1D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC94A7E1D155FB348BB896FE /* Pods_MuchKudos.framework */,
+				D5C773EBAF1D8342FFB9A31D /* Pods_MuchKudosTests.framework */,
+				480CD2E4AEEB2327AFFC37BC /* Pods_MuchKudosUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F26199571FAE873FC10FC6EC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				72C015A42DCA3989F8105826 /* Pods-MuchKudos.debug.xcconfig */,
+				3B5D359A6263DA984791A72C /* Pods-MuchKudos.release.xcconfig */,
+				2B93BCCD31BA47F5F2AE0258 /* Pods-MuchKudosTests.debug.xcconfig */,
+				7F8B7E043D90330292ABB915 /* Pods-MuchKudosTests.release.xcconfig */,
+				F372C494C44D36159BF4E435 /* Pods-MuchKudosUITests.debug.xcconfig */,
+				647A3DA02E2194333EE9B3B4 /* Pods-MuchKudosUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40E46D0D2038AEBD0013B15C /* MuchKudos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40E46D362038AEBE0013B15C /* Build configuration list for PBXNativeTarget "MuchKudos" */;
+			buildPhases = (
+				EB4CDD704DDCD3D79CAB0C0C /* [CP] Check Pods Manifest.lock */,
+				40E46D0A2038AEBD0013B15C /* Sources */,
+				40E46D0B2038AEBD0013B15C /* Frameworks */,
+				40E46D0C2038AEBD0013B15C /* Resources */,
+				07230CF0BF1E2B210F4A160C /* [CP] Embed Pods Frameworks */,
+				6D4BB8E3770D4C2DCB853729 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MuchKudos;
+			productName = MuchKudos;
+			productReference = 40E46D0E2038AEBD0013B15C /* MuchKudos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		40E46D212038AEBE0013B15C /* MuchKudosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40E46D392038AEBE0013B15C /* Build configuration list for PBXNativeTarget "MuchKudosTests" */;
+			buildPhases = (
+				11A4002C867A2EB49FA0E471 /* [CP] Check Pods Manifest.lock */,
+				40E46D1E2038AEBE0013B15C /* Sources */,
+				40E46D1F2038AEBE0013B15C /* Frameworks */,
+				40E46D202038AEBE0013B15C /* Resources */,
+				B58E3928C970D8C63B89B9C2 /* [CP] Embed Pods Frameworks */,
+				58A0C178BA39B507194D6A4C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40E46D242038AEBE0013B15C /* PBXTargetDependency */,
+			);
+			name = MuchKudosTests;
+			productName = MuchKudosTests;
+			productReference = 40E46D222038AEBE0013B15C /* MuchKudosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		40E46D2C2038AEBE0013B15C /* MuchKudosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40E46D3C2038AEBE0013B15C /* Build configuration list for PBXNativeTarget "MuchKudosUITests" */;
+			buildPhases = (
+				0EDC37AE0ECBDD6CE60CFC87 /* [CP] Check Pods Manifest.lock */,
+				40E46D292038AEBE0013B15C /* Sources */,
+				40E46D2A2038AEBE0013B15C /* Frameworks */,
+				40E46D2B2038AEBE0013B15C /* Resources */,
+				9940B8B6B57BE23DD2CD45DB /* [CP] Embed Pods Frameworks */,
+				F9AF7221FCDB8E311BAFF912 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40E46D2F2038AEBE0013B15C /* PBXTargetDependency */,
+			);
+			name = MuchKudosUITests;
+			productName = MuchKudosUITests;
+			productReference = 40E46D2D2038AEBE0013B15C /* MuchKudosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40E46D062038AEBD0013B15C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				TargetAttributes = {
+					40E46D0D2038AEBD0013B15C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					40E46D212038AEBE0013B15C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 40E46D0D2038AEBD0013B15C;
+					};
+					40E46D2C2038AEBE0013B15C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 40E46D0D2038AEBD0013B15C;
+					};
+				};
+			};
+			buildConfigurationList = 40E46D092038AEBD0013B15C /* Build configuration list for PBXProject "MuchKudos" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40E46D052038AEBD0013B15C;
+			productRefGroup = 40E46D0F2038AEBD0013B15C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40E46D0D2038AEBD0013B15C /* MuchKudos */,
+				40E46D212038AEBE0013B15C /* MuchKudosTests */,
+				40E46D2C2038AEBE0013B15C /* MuchKudosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40E46D0C2038AEBD0013B15C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40E46D1C2038AEBD0013B15C /* LaunchScreen.storyboard in Resources */,
+				40E46D402038BFA70013B15C /* GoogleService-Info.plist in Resources */,
+				40E46D192038AEBD0013B15C /* Assets.xcassets in Resources */,
+				40E46D172038AEBD0013B15C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40E46D202038AEBE0013B15C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40E46D2B2038AEBE0013B15C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07230CF0BF1E2B210F4A160C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MuchKudos/Pods-MuchKudos-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${PODS_ROOT}/TwitterCore/iOS/TwitterCore.framework",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MuchKudos/Pods-MuchKudos-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0EDC37AE0ECBDD6CE60CFC87 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MuchKudosUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		11A4002C867A2EB49FA0E471 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MuchKudosTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58A0C178BA39B507194D6A4C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MuchKudosTests/Pods-MuchKudosTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D4BB8E3770D4C2DCB853729 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MuchKudos/Pods-MuchKudos-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseFacebookAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseGoogleAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebasePhoneAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseTwitterAuthUI.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterKitResources.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterShareExtensionUIResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseFacebookAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseGoogleAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebasePhoneAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseTwitterAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterKitResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterShareExtensionUIResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MuchKudos/Pods-MuchKudos-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9940B8B6B57BE23DD2CD45DB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MuchKudosUITests/Pods-MuchKudosUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B58E3928C970D8C63B89B9C2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MuchKudosTests/Pods-MuchKudosTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB4CDD704DDCD3D79CAB0C0C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MuchKudos-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9AF7221FCDB8E311BAFF912 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MuchKudosUITests/Pods-MuchKudosUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40E46D0A2038AEBD0013B15C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40D30FB62039476000BC9FB4 /* LoginViewController.swift in Sources */,
+				40D30FB82039887E00BC9FB4 /* AllKudosViewController.swift in Sources */,
+				404B16D120399F1A003B0CFC /* Kudos.swift in Sources */,
+				40E46D142038AEBD0013B15C /* ViewController.swift in Sources */,
+				40E46D122038AEBD0013B15C /* AppDelegate.swift in Sources */,
+				404B16D32039C83D003B0CFC /* ExpandableCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40E46D1E2038AEBE0013B15C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40E46D272038AEBE0013B15C /* MuchKudosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40E46D292038AEBE0013B15C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40E46D322038AEBE0013B15C /* MuchKudosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40E46D242038AEBE0013B15C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40E46D0D2038AEBD0013B15C /* MuchKudos */;
+			targetProxy = 40E46D232038AEBE0013B15C /* PBXContainerItemProxy */;
+		};
+		40E46D2F2038AEBE0013B15C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40E46D0D2038AEBD0013B15C /* MuchKudos */;
+			targetProxy = 40E46D2E2038AEBE0013B15C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		40E46D152038AEBD0013B15C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40E46D162038AEBD0013B15C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		40E46D1A2038AEBD0013B15C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40E46D1B2038AEBD0013B15C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40E46D342038AEBE0013B15C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		40E46D352038AEBE0013B15C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40E46D372038AEBE0013B15C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72C015A42DCA3989F8105826 /* Pods-MuchKudos.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = MuchKudos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.icloud.cs-temporary.MuchKudos";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		40E46D382038AEBE0013B15C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B5D359A6263DA984791A72C /* Pods-MuchKudos.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = MuchKudos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.icloud.cs-temporary.MuchKudos";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		40E46D3A2038AEBE0013B15C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B93BCCD31BA47F5F2AE0258 /* Pods-MuchKudosTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MuchKudosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.icloud.cs-temporary.MuchKudosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MuchKudos.app/MuchKudos";
+			};
+			name = Debug;
+		};
+		40E46D3B2038AEBE0013B15C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F8B7E043D90330292ABB915 /* Pods-MuchKudosTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MuchKudosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.icloud.cs-temporary.MuchKudosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MuchKudos.app/MuchKudos";
+			};
+			name = Release;
+		};
+		40E46D3D2038AEBE0013B15C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F372C494C44D36159BF4E435 /* Pods-MuchKudosUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MuchKudosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.icloud.cs-temporary.MuchKudosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MuchKudos;
+			};
+			name = Debug;
+		};
+		40E46D3E2038AEBE0013B15C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 647A3DA02E2194333EE9B3B4 /* Pods-MuchKudosUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MuchKudosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.icloud.cs-temporary.MuchKudosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MuchKudos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40E46D092038AEBD0013B15C /* Build configuration list for PBXProject "MuchKudos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40E46D342038AEBE0013B15C /* Debug */,
+				40E46D352038AEBE0013B15C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40E46D362038AEBE0013B15C /* Build configuration list for PBXNativeTarget "MuchKudos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40E46D372038AEBE0013B15C /* Debug */,
+				40E46D382038AEBE0013B15C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40E46D392038AEBE0013B15C /* Build configuration list for PBXNativeTarget "MuchKudosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40E46D3A2038AEBE0013B15C /* Debug */,
+				40E46D3B2038AEBE0013B15C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40E46D3C2038AEBE0013B15C /* Build configuration list for PBXNativeTarget "MuchKudosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40E46D3D2038AEBE0013B15C /* Debug */,
+				40E46D3E2038AEBE0013B15C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40E46D062038AEBD0013B15C /* Project object */;
+}

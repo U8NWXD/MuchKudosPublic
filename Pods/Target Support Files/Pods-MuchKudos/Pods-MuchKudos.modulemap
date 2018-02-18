@@ -1,0 +1,6 @@
+framework module Pods_MuchKudos {
+  umbrella header "Pods-MuchKudos-umbrella.h"
+
+  export *
+  module * { export * }
+}
